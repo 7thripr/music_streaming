@@ -34,6 +34,8 @@ Terminal 3
     
     --> redis-server --port 6380 --slaveof 127.0.0.1 6379
 
+    (To check cache keys install redis cli from redis website and use redis.cli to coonect to server and KEYS * to check the keys)
+
 Terminal 4
 
     Start Celery Worker
